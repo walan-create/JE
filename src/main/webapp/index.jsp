@@ -2,12 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Redirigiendo....</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+
+<%
+    response.sendRedirect("PaginaPrincipalServlet");
+%>
+
 </body>
 </html>
